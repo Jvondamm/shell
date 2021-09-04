@@ -1,0 +1,21 @@
+Joshua von Damm (jvondamm@calpoly.edu)
+
+compiles with: make mush or make all
+runs with: ./mush OR ./mush [scriptfile]
+
+
+Limits:
+
+Command line length: 512
+Commands to a pipeline: 10
+Arguments to a command: 10
+
+My own limit:
+Individual stage command line length: 128
+
+(if line len is 512 and max args is 10, then technically 
+it could have been length 52, but 128 is also a nice number)
+
+mush quits on ^D or 'q'
+
+
