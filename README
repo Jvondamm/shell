@@ -1,7 +1,9 @@
-Joshua von Damm (jvondamm@calpoly.edu)
+Joshua von Damm (jvondamm@gmail.com)
 
-compiles with: make mush or make all
-runs with: ./mush OR ./mush [scriptfile]
+A (nearly) fully functional shell written in pure C that is called mush.
+
+Compiles with: make mush or make all
+Runs with: ./mush OR ./mush [scriptfile]
 
 
 Limits:
